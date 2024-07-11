@@ -7,8 +7,7 @@ jobs:
     parallelism: 20
     steps:
       - checkout
-      - setup_remote_docker:
-
+      - setup_remote_docker
       - run:
           name: Build Docker image
           command: |
